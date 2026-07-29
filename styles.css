@@ -21,3 +21,32 @@ main {
   text-align: center;
   padding: 2rem;
 }
+
+h1,
+p {
+  font-size: 18pt;
+  margin: 0;
+  letter-spacing: normal;
+  font-kerning: normal;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+p {
+  margin-top: 0.5rem;
+}
+
+::selection {
+  background: #FF0099;
+  color: black;
+  text-shadow: none;
+}
+
+::-moz-selection {
+  background: #FF0099;
+  color: black;
+  text-shadow: none;
+}
