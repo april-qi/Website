@@ -12,9 +12,9 @@ body {
   min-height: 100vh;
   display: grid;
   place-items: center;
-  font-family: 'PPEditorial New', Arial, sans-serif;
+  font-family: 'PPEditorial New', "Times New Roman", serif;
   color: #6C6C6C;
-  background: #EFEFEF;
+  background: #F6F5EF;
 }
 
 main {
@@ -36,17 +36,17 @@ a {
 }
 
 p {
-  margin-top: 0.5rem;
+  margin-top: 0.2rem;
 }
 
 ::selection {
-  background: #FF0099;
-  color: black;
+  background: #A5BB77;
+  color: #CDF0D5;
   text-shadow: none;
 }
 
 ::-moz-selection {
-  background: #FF0099;
-  color: black;
+  background: #A5BB77;
+  color: #CDF0D5;
   text-shadow: none;
 }
